@@ -10,12 +10,33 @@
     display: none !important;
 }
 
-.font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.font-arabic {
-    font-family: 'Noto Naskh Arabic', serif !important;
+.font-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-hanken-grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .img-center-crop {
