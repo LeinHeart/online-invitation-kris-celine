@@ -90,32 +90,8 @@
     <!-- Root Invitation -->
     <div class="row m-0 p-0" style="opacity: 0;" id="root">
 
-        <!-- Desktop mode -->
-        <div class="sticky-top vh-100 d-none d-lg-block col-lg-7 col-xl-8 col-xxl-9 overflow-y-hidden m-0 p-0">
-            <div class="position-relative bg-white-black d-flex justify-content-center align-items-center vh-100">
-                <div class="d-flex position-absolute w-100 h-100">
-                    <div class="position-relative overflow-hidden vw-100">
-                        <div class="position-absolute h-100 w-100 slide-desktop" style="opacity: 0;">
-                            <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1000/1000?random=7" alt="bg" class="bg-cover-home" style="mask-image: none; opacity: 30%;">
-                        </div>
-                        <div class="position-absolute h-100 w-100 slide-desktop" style="opacity: 0;">
-                            <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1000/1000?random=8" alt="bg" class="bg-cover-home" style="mask-image: none; opacity: 30%;">
-                        </div>
-                        <div class="position-absolute h-100 w-100 slide-desktop" style="opacity: 0;">
-                            <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1000/1000?random=9" alt="bg" class="bg-cover-home" style="mask-image: none; opacity: 30%;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center p-4 bg-overlay-auto rounded-5">
-                    <h2 class="font-cinzel mb-4" style="font-size: 2rem;">Kristopher &amp; Celine</h2>
-                    <p class="font-hanken-grotesk m-0" style="font-size: 1rem;">Saturday, July 19th 2025</p>
-                </div>
-            </div>
-        </div>
-
         <!-- Smartphone mode -->
-        <div class="col-lg-5 col-xl-4 col-xxl-3 m-0 p-0">
+        <div class="col-lg-5 col-xl-4 col-xxl-3 m-0 p-0 mx-auto">
             <!-- Main Content -->
             <main data-bs-spy="scroll" data-bs-target="#navbar-menu" data-bs-root-margin="25% 0% 0% 0%" data-bs-smooth-scroll="true" tabindex="0">
 
@@ -169,7 +145,9 @@
                     <div class="overflow-x-hidden pb-4">
 
                         <div data-aos="fade-right" data-aos-duration="2000" class="pb-1">
-                            <img src="./assets/images/placeholder.webp" data-src="./assets/images/cowo-2.jpg" alt="cowo" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto">
+                            <div class="rounded-circle border border-3 border-light shadow my-4 mx-auto" style="width: 200px; height: 200px; overflow: hidden;">
+                                <img src="./assets/images/placeholder.webp" data-src="./assets/images/cowo-2.jpg" alt="Kristopher Chayadi" onclick="undangan.guest.modal(this)" style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.4);">
+                            </div>
                             <h2 class="font-cinzel m-0" style="font-size: 2.125rem;">Kristopher Chayadi</h2>
                             <p class="font-open-sans mt-3 mb-1" style="font-size: 1.25rem;">First Son of</p>
                             <p class="font-open-sans mb-0" style="font-size: 0.95rem;">Mr. Hiu Kentjana Soegiarto & Mrs. Christiana Eva Pertiwi</p>
@@ -196,7 +174,9 @@
                         </div>
 
                         <div data-aos="fade-left" data-aos-duration="2000" class="pb-1">
-                            <img src="./assets/images/placeholder.webp" data-src="./assets/images/cewe-4.jpg" alt="cewe" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto">
+                            <div class="rounded-circle border border-3 border-light shadow my-4 mx-auto" style="max-width: 200px; width: 100%; aspect-ratio: 1; overflow: hidden;">
+                                <img src="./assets/images/placeholder.webp" data-src="./assets/images/cewe-4.jpg" alt="Celine Linardi" onclick="undangan.guest.modal(this)" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; transform: scale(1.4);">
+                            </div>
                             <h2 class="font-cinzel m-0" style="font-size: 2.125rem;">Celine Linardi</h2>
                             <p class="font-open-sans mt-3 mb-1" style="font-size: 1.25rem;">First Daughter of</p>
                             <p class="font-open-sans mb-0" style="font-size: 0.95rem;">Mr. Suhardi & Mrs. Hanywati Lusdi</p>
